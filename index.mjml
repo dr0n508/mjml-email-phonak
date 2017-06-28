@@ -1,11 +1,27 @@
 <mjml>
   <mj-head>
+
     <mj-attributes>
       <mj-class name="big" font-size="25px" />
-      <mj-class name="small" font-size="25px" />
+      <mj-class name="small" font-size="21px" />
       <mj-class name="main-color" color="#424242"/>
       <mj-all font-family="Arial,Helvetica,sans-serif" />
     </mj-attributes>
+
+    <mj-style inline="inline">
+      .step {
+        width: 45px;
+        height: 45px;
+        border: solid 2px #979797;
+        border-radius: 50%;
+        display: block;
+        color: #979797;
+        font-size: 25px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
     <mj-container>
@@ -26,17 +42,7 @@
       <mj-section>
         <mj-column width="80px" padding="0">
           <mj-text>
-            <span style="width: 45px;
-
-             height: 45px;
-             border: solid 2px #979797;
-             border-radius: 50%;
-             display: block;
-             color: #979797;
-             font-size: 25px;
-             line-height: 45px;
-             text-align: center;
-             font-weight: 600">1</span>
+            <span class="step">1</span>
           </mj-text>
         </mj-column>
 
@@ -59,17 +65,7 @@
       <mj-section>
         <mj-column width="80px" padding="0">
           <mj-text>
-            <span style="width: 45px;
-
-             height: 45px;
-             border: solid 2px #979797;
-             border-radius: 50%;
-             display: block;
-             color: #979797;
-             font-size: 25px;
-             line-height: 45px;
-             text-align: center;
-             font-weight: 600">2</span>
+            <span class="step">2</span>
           </mj-text>
         </mj-column>
         <mj-column width="520px" padding="0">
@@ -80,42 +76,29 @@
       <mj-section>
         <mj-column width="80px" padding="0">
           <mj-text>
-            <span style="width: 45px;
-
-             height: 45px;
-             border: solid 2px #979797;
-             border-radius: 50%;
-             display: block;
-             color: #979797;
-             font-size: 25px;
-             line-height: 45px;
-             text-align: center;
-             font-weight: 600">3</span>
+            <span class="step">3</span>
           </mj-text>
         </mj-column>
         <mj-column width="520px" padding="0">
           <mj-text mj-class="main-color big" line-height="30px" font-weight="400">To activate the Phonak Care app, return to this email and click the "setup" link below:</mj-text>
-          <mj-button
+          <mj-button mj-class="big"
                   href="#"
-
-                  font-size="25px"
                   border-radius="5px"
                   font-weight="600"
                   width="100%"
                   height="70px"
                   background-color="#8bbc08">Setup app</mj-button>
-          <mj-text font-size="21px"  line-height="26px">
+          <mj-text mj-class="small" line-height="26px">
             If the above link does not work, you can also enter the setup code to activate the PhonakCare app.
           </mj-text>
-          <mj-button href="#"
-                     font-size="25px"
+
+          <mj-button mj-class="big" href="#"
                      align="left"
                      height="100px"
                      background-color="#979797"
                      border-radius="0px">
             <p>Your setup code</p>
             <p style="font-weight: 600">395426</p>
-
           </mj-button>
         </mj-column>
       </mj-section>
@@ -126,8 +109,6 @@
         </mj-column>
       </mj-section>
 
-
-
       <mj-section padding="0">
         <mj-column padding-top="0">
           <mj-text mj-class="main-color big" padding="0 25px">
@@ -136,13 +117,7 @@
             <p>Elite Audiology</p>
           </mj-text>
         </mj-column>
-
       </mj-section>
-
-
-
-
-
 
     </mj-container>
   </mj-body>
