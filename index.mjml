@@ -49,14 +49,14 @@
         <mj-column width="520px">
           <mj-text mj-class="main-color big" font-weight="400">Download the Phonak Care app</mj-text>
 
-            <mj-section padding="0">
-              <mj-column>
-                <mj-image  align="center" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/apple-store-btn.png" href="#" alt=""></mj-image>
-              </mj-column>
-              <mj-column>
-                 <mj-image  align="center" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/google-play-btn.png" href="#" alt=""></mj-image>
-              </mj-column>
-            </mj-section>
+          <mj-section padding="0">
+            <mj-column>
+              <mj-image  align="center" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/apple-store-btn.png" href="#" alt=""></mj-image>
+            </mj-column>
+            <mj-column>
+               <mj-image  align="center" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/google-play-btn.png" href="#" alt=""></mj-image>
+            </mj-column>
+          </mj-section>
 
         </mj-column>
       </mj-section>
@@ -87,7 +87,8 @@
                   font-weight="600"
                   width="100%"
                   height="70px"
-                  background-color="#8bbc08">Setup app</mj-button>
+                  background-color="#8bbc08">
+            Setup app</mj-button>
           <mj-text mj-class="small" line-height="26px">
             If the above link does not work, you can also enter the setup code to activate the PhonakCare app.
           </mj-text>
