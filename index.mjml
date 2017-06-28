@@ -42,10 +42,10 @@
   <mj-body>
     <mj-container>
 
-      <mj-section>
+      <mj-section padding-bottom="0px">
         <mj-column>
 
-          <mj-image width="200" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/logo.png" align="right"></mj-image>
+          <mj-image padding-bottom="0px" width="180" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/logo.png" align="right"></mj-image>
           <mj-divider border-color="#8bbc08"></mj-divider>
           <mj-text color="#8bbc08" line-height="30px" font-weight="600"><span class="h1">Dear Alex Stevens</span></mj-text>
           <mj-divider border-color="#d8d8d8" border-width="2px"></mj-divider>
@@ -55,14 +55,14 @@
       </mj-section>
 
 
-      <mj-section>
+      <mj-section padding-bottom="0px">
         <mj-column width="80px" padding="0">
           <mj-text>
             <span class="step">1</span>
           </mj-text>
         </mj-column>
 
-        <mj-column width="520px">
+        <mj-column width="520px" >
           <mj-text mj-class="main-color" font-weight="400"><span class="big">Download the Phonak Care app</span></mj-text>
 
           <mj-section padding="0">
@@ -78,7 +78,7 @@
       </mj-section>
 
 
-      <mj-section>
+      <mj-section padding-bottom="0px">
         <mj-column width="80px" padding="0">
           <mj-text>
             <span class="step">2</span>
