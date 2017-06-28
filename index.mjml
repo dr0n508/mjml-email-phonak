@@ -8,6 +8,14 @@
       <mj-all font-family="Arial,Helvetica,sans-serif" />
     </mj-attributes>
 
+    <mj-style>
+      @media all and (max-width: 480px) {
+        .big { font-size: 18px !important; line-height: 20px !important}
+        .small { font-size: 16px !important; line-height: 18px !important}
+        .h1 { font-size: 24px !important}
+      }
+    </mj-style>
+
     <mj-style inline="inline">
       .step {
         width: 45px;
@@ -19,9 +27,17 @@
         font-size: 25px;
         line-height: 45px;
         text-align: center;
-        font-weight: 600
+        font-weight: 600;
+        margin: 0 auto
       }
+
+      .big { font-size: 25px; line-height: 30px}
+      .small { font-size: 21px}
+      .h1 { font-size: 32px}
     </mj-style>
+
+
+
   </mj-head>
   <mj-body>
     <mj-container>
@@ -31,10 +47,10 @@
 
           <mj-image width="200" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/logo.png" align="right"></mj-image>
           <mj-divider border-color="#8bbc08"></mj-divider>
-          <mj-text font-size="32px" color="#8bbc08"  font-weight="600">Dear Alex Stevens</mj-text>
+          <mj-text color="#8bbc08" line-height="30px" font-weight="600"><span class="h1">Dear Alex Stevens</span></mj-text>
           <mj-divider border-color="#d8d8d8" border-width="2px"></mj-divider>
-          <mj-text mj-class="main-color big">Wellcome to Phonak Care</mj-text>
-          <mj-text mj-class="main-color big">Follow these steps to get started</mj-text>
+          <mj-text mj-class="main-color"><span class="big">Wellcome to Phonak Care</span></mj-text>
+          <mj-text mj-class="main-color"><span class="big">Follow these steps to get started</span></mj-text>
         </mj-column>
       </mj-section>
 
@@ -47,7 +63,7 @@
         </mj-column>
 
         <mj-column width="520px">
-          <mj-text mj-class="main-color big" font-weight="400">Download the Phonak Care app</mj-text>
+          <mj-text mj-class="main-color" font-weight="400"><span class="big">Download the Phonak Care app</span></mj-text>
 
           <mj-section padding="0">
             <mj-column>
@@ -69,7 +85,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="520px" padding="0">
-          <mj-text mj-class="main-color big"  line-height="30px"  font-weight="400">Ones installed, start the Phonak Care app</mj-text>
+          <mj-text mj-class="main-color"  font-weight="400"><span class="big">Ones installed, start the Phonak Care app</span></mj-text>
         </mj-column>
       </mj-section>
 
@@ -80,7 +96,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="520px" padding="0">
-          <mj-text mj-class="main-color big" line-height="30px" font-weight="400">To activate the Phonak Care app, return to this email and click the "setup" link below:</mj-text>
+          <mj-text mj-class="main-color" font-weight="400"><span class="big">To activate the Phonak Care app, return to this email and click the "setup" link below:</span></mj-text>
           <mj-button mj-class="big"
                   href="#"
                   border-radius="5px"
@@ -89,8 +105,8 @@
                   height="70px"
                   background-color="#8bbc08">
             Setup app</mj-button>
-          <mj-text mj-class="small" line-height="26px">
-            If the above link does not work, you can also enter the setup code to activate the PhonakCare app.
+          <mj-text>
+            <span class="small">If the above link does not work, you can also enter the setup code to activate the PhonakCare app.</span>
           </mj-text>
 
           <mj-button mj-class="big" href="#"
@@ -112,10 +128,10 @@
 
       <mj-section padding="0">
         <mj-column padding-top="0">
-          <mj-text mj-class="main-color big" padding="0 25px">
-            <p>Kind regards,</p>
-            <p>Joe Clemmons,</p>
-            <p>Elite Audiology</p>
+          <mj-text mj-class="main-color" padding="0 25px">
+            <p class="big">Kind regards,</p>
+            <p class="big">Joe Clemmons,</p>
+            <p class="big">Elite Audiology</p>
           </mj-text>
         </mj-column>
       </mj-section>
