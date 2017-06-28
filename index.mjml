@@ -1,0 +1,145 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+
+      <mj-section>
+        <mj-column>
+
+          <mj-image width="200" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/logo.png" align="right"></mj-image>
+          <mj-divider border-color="#8bbc08"></mj-divider>
+          <mj-text font-size="32px" color="#8bbc08" font-family="helvetica" font-weight="600">Dear Alex Stevens</mj-text>
+          <mj-divider border-color="#d8d8d8" border-width="2px"></mj-divider>
+          <mj-text font-size="25px" color="#424242" font-family="helvetica" >Wellcome to Phonak Care</mj-text>
+          <mj-text font-size="25px" color="#424242" font-family="helvetica" >Follow these steps to get started</mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section>
+        <mj-column width="80px" padding="0">
+          <mj-text>
+            <span style="width: 45px;
+             font-family: helvetica;
+             height: 45px;
+             border: solid 2px #979797;
+             border-radius: 50%;
+             display: block;
+             color: #979797;
+             font-size: 25px;
+             line-height: 45px;
+             text-align: center;
+             font-weight: 600">1</span>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="520px">
+          <mj-text font-size="25px" color="#424242" font-family="helvetica" font-weight="400">Download the Phonak Care app</mj-text>
+
+            <mj-section padding="0">
+              <mj-column>
+                <mj-image  align="center" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/apple-store-btn.png" href="#" alt=""></mj-image>
+              </mj-column>
+              <mj-column>
+                 <mj-image  align="center" src="http://kronan.com.ua/z/korn/email-phonak/assets/img/google-play-btn.png" href="#" alt=""></mj-image>
+              </mj-column>
+            </mj-section>
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section>
+        <mj-column width="80px" padding="0">
+          <mj-text>
+            <span style="width: 45px;
+             font-family: helvetica;
+             height: 45px;
+             border: solid 2px #979797;
+             border-radius: 50%;
+             display: block;
+             color: #979797;
+             font-size: 25px;
+             line-height: 45px;
+             text-align: center;
+             font-weight: 600">2</span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="520px" padding="0">
+          <mj-text font-size="25px" color="#424242" line-height="30px" font-family="helvetica" font-weight="400">Ones installed, start the Phonak Care app</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="80px" padding="0">
+          <mj-text>
+            <span style="width: 45px;
+             font-family: helvetica;
+             height: 45px;
+             border: solid 2px #979797;
+             border-radius: 50%;
+             display: block;
+             color: #979797;
+             font-size: 25px;
+             line-height: 45px;
+             text-align: center;
+             font-weight: 600">3</span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="520px" padding="0">
+          <mj-text font-size="25px" color="#424242" font-family="helvetica" line-height="30px" font-weight="400">To activate the Phonak Care app, return to this email and click the "setup" link below:</mj-text>
+          <mj-button
+                  href="#"
+                  font-family="helvetica"
+                  font-size="25px"
+                  border-radius="5px"
+                  font-weight="600"
+                  width="100%"
+                  height="70px"
+                  background-color="#8bbc08">Setup app</mj-button>
+          <mj-text font-size="21px" font-family="helvetica" line-height="26px">
+            If the above link does not work, you can also enter the setup code to activate the PhonakCare app.
+          </mj-text>
+          <mj-button href="#"
+                     font-size="25px"
+                     align="left"
+                     height="100px"
+                     background-color="#979797"
+                     font-family="helvetica"
+                     border-radius="0px">
+            <p>Your setup code</p>
+            <p style="font-weight: 600">395426</p>
+
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#d8d8d8" border-width="2px"></mj-divider>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section padding="0">
+        <mj-column padding-top="0">
+          <mj-text color="#424242"
+                   font-family="helvetica"
+                   padding="0 25px"
+                   font-size="25px">
+            <p>Kind regards,</p>
+            <p>Joe Clemmons,</p>
+            <p>Elite Audiology</p>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+
+
+
+
+
+
+    </mj-container>
+  </mj-body>
+</mjml>
